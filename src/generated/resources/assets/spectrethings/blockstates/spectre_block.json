@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "spectrethings:block/spectre_block"
+    }
+  }
+}

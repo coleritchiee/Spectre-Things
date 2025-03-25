@@ -1,0 +1,12 @@
+{
+  "type": "spectrethings:spectre_dim_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "spectrethings:spectral_biome",
+      "features": false,
+      "lakes": false,
+      "layers": []
+    }
+  }
+}

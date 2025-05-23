@@ -100,7 +100,7 @@ public class SpectreHandler extends SavedData {
 
         SpectreCube cube = getCurrentCube(player.blockPosition());
         SpectreCube playerCube = playerCubes.get(player.getUUID());
-        if (cube == null || !cube.equals(playerCube) || !isPlayerInCube(player, playerCube)){
+        if (cube == null || !isPlayerInCube(player, playerCube)){
             if (playerCube != null) {
                 player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40));
                 player.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 40));
@@ -116,13 +116,16 @@ public class SpectreHandler extends SavedData {
     }
 
     public SpectreCube getCurrentCube(BlockPos pos) {
-        int gridX = pos.getX() / PLOT_SPACING;
-        int gridZ = pos.getZ() / PLOT_SPACING;
-
         return playerCubes.values().stream()
-                .filter(cube ->
-                        cube.getPosition() / PLOT_SPACING == gridX &&
-                                cube.getPosition() / PLOT_SPACING == gridZ)
+                .filter(cube -> {
+                    int minX = cube.getPosition() * 16;
+                    int maxX = minX + 16 - 1;
+                    int minZ = 0;
+                    int maxZ = minZ + 16 - 1;
+
+                    return pos.getX() >= minX && pos.getX() <= maxX &&
+                            pos.getZ() >= minZ && pos.getZ() <= maxZ;
+                })
                 .findFirst()
                 .orElse(null);
     }
@@ -140,7 +143,6 @@ public class SpectreHandler extends SavedData {
                     player.getYRot(),
                     player.getXRot()
             );
-            player.removeData(Registration.SPECTRE_DATA);
         }
     }
 

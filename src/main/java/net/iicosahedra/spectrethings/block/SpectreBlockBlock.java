@@ -1,6 +1,7 @@
 package net.iicosahedra.spectrethings.block;
 
 import net.iicosahedra.spectrethings.setup.Registration;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.Entity;
@@ -20,7 +21,7 @@ public class SpectreBlockBlock extends Block {
 
     public SpectreBlockBlock() {
         super(Properties.of()
-                .mapColor(MapColor.STONE)
+                .mapColor(MapColor.NONE)
                 .strength(-1.0F, Float.MAX_VALUE - 1000f)
                 .sound(SoundType.GLASS)
                 .noOcclusion()
@@ -28,6 +29,7 @@ public class SpectreBlockBlock extends Block {
                 .pushReaction(PushReaction.BLOCK)
         );
     }
+
 
     @Override
     public float getExplosionResistance(BlockState state, BlockGetter world, BlockPos pos, Explosion explosion) {

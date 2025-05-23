@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "spectrethings:block/spectre_log_top",
+    "side": "spectrethings:block/spectre_log"
+  }
+}

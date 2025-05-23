@@ -1,6 +1,22 @@
 {
+  "ResourceKey[minecraft:worldgen/biome / spectrethings:spectral_biome]": "Spectre",
+  "block.spectrethings.spectre_block": "Spectre Block",
+  "block.spectrethings.spectre_core": "Spectre Core",
+  "block.spectrethings.spectre_leaves": "Spectre Leaves",
+  "block.spectrethings.spectre_log": "Spectre Log",
+  "block.spectrethings.spectre_planks": "Spectre Planks",
+  "block.spectrethings.spectre_sapling": "Spectre Sapling",
+  "creativetab.spectre_things.general": "Spectre Things",
+  "entity.spectrethings.spirit": "Spirit",
   "item.spectrethings.ectoplasm": "Ectoplasm",
+  "item.spectrethings.spectre_anchor": "Spectre Anchor",
+  "item.spectrethings.spectre_axe": "Spectre Axe",
   "item.spectrethings.spectre_ingot": "Spectre Ingot",
   "item.spectrethings.spectre_key": "Spectre Key",
-  "item.spectrethings.stable_ender_pearl": "Stable Ender Pearl"
+  "item.spectrethings.spectre_pickaxe": "Spectre Pickaxe",
+  "item.spectrethings.spectre_shovel": "Spectre Shovel",
+  "item.spectrethings.spectre_sword": "Spectre Sword",
+  "item.spectrethings.stable_ender_pearl": "Stable Ender Pearl",
+  "spectre_things_tab": "Spectre Things",
+  "tooltip.spectrethings.anchored": "Anchored"
 }

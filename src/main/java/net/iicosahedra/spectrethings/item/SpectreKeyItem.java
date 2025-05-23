@@ -33,7 +33,7 @@ public class SpectreKeyItem extends Item {
 
     @Override
     public int getUseDuration(ItemStack stack, LivingEntity entity) {
-        return 100;
+        return 60;
     }
 
     @Override
@@ -45,7 +45,7 @@ public class SpectreKeyItem extends Item {
 
     @Override
     public void onUseTick(Level level, LivingEntity entity, ItemStack stack, int remainingTicks) {
-        if (level.isClientSide && remainingTicks < 100) {
+        if (level.isClientSide && remainingTicks < 60) {
             spawnChargingParticles(entity, remainingTicks);
         }
     }
@@ -75,16 +75,6 @@ public class SpectreKeyItem extends Item {
 
 
         private void teleportToSpectre(ServerPlayer player) {
-        /* ATTACHMENT HANDLED IN DIM CHANGE EVENT NOW
-            player.setData(Registration.SPECTRE_DATA,
-                    new SpectreData(
-                            player.level().dimension(),
-                            player.blockPosition()
-                    )
-            );
-
-         */
-
             ServerLevel spectreLevel = player.server.getLevel(Registration.SPECTRE_LEVEL_KEY);
             if (spectreLevel != null) {
                 SpectreHandler handler = SpectreHandler.get(Objects.requireNonNull(player.getServer()));
@@ -114,7 +104,7 @@ public class SpectreKeyItem extends Item {
     @OnlyIn(Dist.CLIENT)
     private void spawnChargingParticles(LivingEntity entity, int remainingTicks) {
         Minecraft mc = Minecraft.getInstance();
-        int particlesToSpawn = (100 - remainingTicks) * 2;
+        int particlesToSpawn = (60 - remainingTicks);
         float r = ((0x7AC5CD >> 16) & 0xFF) / 255f;
         float g = ((0x7AC5CD >> 8) & 0xFF) / 255f;
         float b = (0x7AC5CD & 0xFF) / 255f;

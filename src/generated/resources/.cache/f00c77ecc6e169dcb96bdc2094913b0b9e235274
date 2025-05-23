@@ -1,5 +1,15 @@
-// 1.21.1	2025-03-24T18:29:34.9029168	Block States: spectrethings
+// 1.21.1	2025-04-14T01:05:49.5791776	Block States: spectrethings
 6d09955cfb85c97c4dc20da24ad484e67e37a874 assets/spectrethings/blockstates/spectre_block.json
 ed5886fd427cc3a0a5d9882751fcd5e5be67b8dd assets/spectrethings/blockstates/spectre_core.json
+1c873d139d5e20ae3430ca80c234fdf221687dd3 assets/spectrethings/blockstates/spectre_leaves.json
+f1db2539de17b5fd99395f0d0488ba6f131c0757 assets/spectrethings/blockstates/spectre_log.json
+85796c7c20dd667abf9ad8d1af1083230d920251 assets/spectrethings/blockstates/spectre_planks.json
+e52a5ea19aa3d0a91ed7761d45781dbabd8565d9 assets/spectrethings/blockstates/spectre_sapling.json
 9d79b9810e1bcc94da24e93ccc40ae3e23a151bc assets/spectrethings/models/block/spectre_block.json
 6b9285ed96f2f7c6b3ba0ae31ee78933b987b0e5 assets/spectrethings/models/block/spectre_core.json
+b64fa7702d33104fe6861d34ce25a6689c78342d assets/spectrethings/models/block/spectre_leaves.json
+ce384312d76b700737d5e914be29d564496971f4 assets/spectrethings/models/block/spectre_log.json
+22cf9cefab1e887068fba173f3775d35d117e06c assets/spectrethings/models/block/spectre_log_horizontal.json
+662572a048ab862b95d53a38511c937e1bc006c2 assets/spectrethings/models/block/spectre_planks.json
+09aa3d8de0c3307dbc71497eba44eb2fd548e65f assets/spectrethings/models/block/spectre_sapling.json
+a9275bc97628884abdba64847cf0cdaff682b244 assets/spectrethings/models/item/spectre_leaves.json

@@ -1,0 +1,7 @@
+// 1.21.1	2025-04-14T01:38:11.6377609	Loot Tables
+c7c645547463feeae9ae9fe301e9642d017aa9b5 data/spectrethings/loot_table/blocks/spectre_block.json
+118b9ab5b0b5c3db6a775aaff146d77089fcadbf data/spectrethings/loot_table/blocks/spectre_core.json
+ca29029f73a6c4ce49eb44e2fc6c1ae575984e32 data/spectrethings/loot_table/blocks/spectre_leaves.json
+94dd6f155fa58ef4b59eeb2e8cfbd2ae69603922 data/spectrethings/loot_table/blocks/spectre_log.json
+ca0603032b945202af378bd0da647e8c5116c94a data/spectrethings/loot_table/blocks/spectre_planks.json
+58a1c14e3fead86cfb385d2765a106f18d3f8deb data/spectrethings/loot_table/blocks/spectre_sapling.json

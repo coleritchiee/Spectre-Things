@@ -1,7 +1,16 @@
-// 1.21.1	2025-03-24T18:29:34.9039177	Item Models: spectrethings
+// 1.21.1	2025-04-22T14:51:01.1936444	Item Models: spectrethings
 a16d57a0218b75b6a6eceba21928a09c16d4f1c5 assets/spectrethings/models/item/ectoplasm.json
+2fc1f9ed2f19e8e184dadbd07f7badc5addfb47d assets/spectrethings/models/item/spectre_anchor.json
+4ad539b95a3f4b80962c7dec2367cf2a04d24da6 assets/spectrethings/models/item/spectre_axe.json
 31ba585738e5ae296e0dec21a51c0a04546894d2 assets/spectrethings/models/item/spectre_block.json
 17e5a8eeae2378a2c6cebf68ca6a90a690220800 assets/spectrethings/models/item/spectre_core.json
 02c400b97622a77e7298ff85a506f4d2ada41f01 assets/spectrethings/models/item/spectre_ingot.json
 6cfa45ff05b9f18424499094e17726727d3a82ba assets/spectrethings/models/item/spectre_key.json
+a9275bc97628884abdba64847cf0cdaff682b244 assets/spectrethings/models/item/spectre_leaves.json
+274d3536bffac11e81cb8776ce8a19e20e3c3a0e assets/spectrethings/models/item/spectre_log.json
+6282ae68725da2e8eb52d1b842f00047710e6541 assets/spectrethings/models/item/spectre_pickaxe.json
+5de89d0e4d57eb445faceb0a1e5136b59f762eb1 assets/spectrethings/models/item/spectre_planks.json
+fe74414c408a58f9516268d8c51ae739b1d2bef2 assets/spectrethings/models/item/spectre_sapling.json
+a6d93bb698d0d8cd57ab11d931c3b63099ed2311 assets/spectrethings/models/item/spectre_shovel.json
+ef50a605ea5e249d51991b2aed33c5d08ea7a4f2 assets/spectrethings/models/item/spectre_sword.json
 df6e2ec30076f78366a38835d88939905e086a69 assets/spectrethings/models/item/stable_ender_pearl.json

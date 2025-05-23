@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "spectrethings",
+  "ingredients": [
+    {
+      "item": "spectrethings:spectre_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "spectrethings:spectre_planks"
+  }
+}

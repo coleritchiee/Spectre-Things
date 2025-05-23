@@ -104,10 +104,10 @@ public class SpectreCube {
     public boolean isPlayerInside(Player player) {
         BlockPos playerPos = player.blockPosition();
 
-        int minX = this.position;
-        int maxX = this.position + 16 - 1;
-        int minZ = this.position;
-        int maxZ = this.position + 16 - 1;
+        int minX = this.position * 16;
+        int maxX = minX + 16 - 1;
+        int minZ = 0;
+        int maxZ = minZ + 16 - 1;
         int minY = 64;
         int maxY = 64 + this.height;
 

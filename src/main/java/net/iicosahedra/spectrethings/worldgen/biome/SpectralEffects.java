@@ -19,7 +19,7 @@ public class SpectralEffects extends DimensionSpecialEffects {
 
     @Override
     public Vec3 getBrightnessDependentFogColor(Vec3 vec3, float v) {
-        return vec3.scale(1.5);
+        return vec3.scale(1.1);
     }
 
     @Override

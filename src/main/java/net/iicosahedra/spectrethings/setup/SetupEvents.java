@@ -1,13 +1,20 @@
 package net.iicosahedra.spectrethings.setup;
 
 import net.iicosahedra.spectrethings.SpectreThings;
+import net.iicosahedra.spectrethings.entity.SpiritEntity;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.entity.EntityAttributeModificationEvent;
 import net.neoforged.neoforge.registries.NewRegistryEvent;
 
 @EventBusSubscriber(modid = SpectreThings.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class SetupEvents {
+    @SubscribeEvent
+    public static void entityAttributes(EntityAttributeCreationEvent event) {
+        event.put(Registration.SPIRIT.get(), SpiritEntity.createAttributes().build());
+    }
+
     @SubscribeEvent
     static void registerAttributes(EntityAttributeModificationEvent event) {
 

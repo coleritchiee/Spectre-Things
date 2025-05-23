@@ -1,0 +1,8 @@
+// 1.21.1	2025-04-22T14:51:01.1906411	Tags for minecraft:item mod id spectrethings
+b6ba0ac2d2a0e7aeb55a48c44ca04257ae0ccad8 data/minecraft/tags/item/axes.json
+4c2b7db2dfecf3d632a35121d05f9393a9f3254e data/minecraft/tags/item/logs.json
+4c2b7db2dfecf3d632a35121d05f9393a9f3254e data/minecraft/tags/item/logs_that_burn.json
+967a8ce9d66a2ad7cfec564839186295b44a6481 data/minecraft/tags/item/pickaxes.json
+6e98616b198db9d77ce8d7a5de489b462be978f1 data/minecraft/tags/item/planks.json
+8876e4b93668ca8772663f69fd9900359000c09e data/minecraft/tags/item/shovels.json
+66379306ff7074e9a17b9ed317ba96bfe01fbc55 data/minecraft/tags/item/swords.json
